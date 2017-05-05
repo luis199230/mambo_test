@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    font-size: 13px;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table th{
+    background-color: #bdbdbd;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container{
+    display: table;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.show_image {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sort-icon-asc, .sort-icon-desc{
+    display: block;
+    width: 16px;
+    height: 16px;
+    float: left;
+    padding-right: 10px;
+}
+.sort-icon-asc {
+    background: no-repeat url("../images/sort-desc.png");
+}
+
+.sort-icon-desc {
+    background: no-repeat url("../images/sort-asc.png");
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    /* Firefox */
+    width: -moz-calc(80% - 12px);
+    /* WebKit */
+    width: -webkit-calc(80% - 12px);
+    /* Opera */
+    width: -o-calc(80% - 12px);
+    /* Standard */
+    width: calc(80% - 12px);
+    display: table;
+}

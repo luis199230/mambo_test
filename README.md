@@ -32,3 +32,13 @@ Esta parte evalúa tus conocimientos de HTML, CSS y Javascript. Primero, prioriz
 Finalmente, elige al menos una tarea e impleméntala. El archivo inicial de trabajo es `index.html`, allí encontrarás una agenda con información de 50 personas. Eres libre de modificar el código a tu antojo y crear cuantos archivos gustes, además, para tu comodidad hemos incluído jQuery. No uses ninguna librería de javascript fuera de jQuery. Tu solución debe funcionar en Chrome, Firefox, Safari e IE8+.
 
 ¡Buena suerte!
+
+## Resolucion Frontend
+
+1- Filtrar por nombre: Es lo mas importante pero reemplazable por el buscador de cada navegador con Control + F.
+2- Paginación: Por que todo listado siempre pienso que va tener muchos registros y es necesario paginarlo
+3- Ordenamiento de columnas: Por que generalmente se require ordenar los contactos de acuerdo a alguna columna para agilizar busqueda.
+4- Encabezado fijo: Se usa para no perder de vista los nombres de las columnas a ordenar o a buscar.
+5- Avatar en modal: Se usa para previsualizar rapidamente los thumbnails de alguna lista.
+
+
